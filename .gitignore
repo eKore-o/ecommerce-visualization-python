@@ -26,6 +26,10 @@ vue3-project/.env
 vue3-project/.env.local
 vue3-project/.env.*.local
 
+# ===== 本地文件 =====
+.claude/
+启动.bat
+
 # ===== 系统文件 =====
 .DS_Store
 Thumbs.db
