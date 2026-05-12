@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ===== Django =====
+*.sqlite3
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# ===== 敏感配置（勿上传）=====
+djangoProject/config.py
+
+# ===== Node / Vue =====
+vue3-project/node_modules/
+vue3-project/dist/
+vue3-project/.env
+vue3-project/.env.local
+vue3-project/.env.*.local
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ===== Office 文档 =====
+*.pptx
+*.docx
+*.pdf
+~$*

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(D:/ProgramData/anaconda3/python.exe:*)",
+      "Bash(mysql:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(pandoc 论文.md -o 论文_最终版.docx --reference-doc=论文.docx)",
+      "Bash(python3)",
+      "Bash(cp:*)",
+      "Bash(grep:*)",
+      "Bash(ls \"D:\\\\基于python的电商平台数据可视化/\"*.pptx)",
+      "Bash(ls \"D:\\\\基于python的电商平台数据可视化/\"*.py)"
+    ]
+  }
+}

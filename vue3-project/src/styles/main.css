@@ -1,0 +1,27 @@
+/* 原始样式在 index.html 中引入 */
+
+/* 自定义样式覆盖，确保与Element Plus兼容 */
+:root {
+  --el-color-primary: #5e72e4;
+  --el-color-success: #2dce89;
+  --el-color-warning: #fb6340;
+  --el-color-danger: #f5365c;
+  --el-color-info: #11cdef;
+}
+
+/* 保持原有布局样式 */
+.main-content {
+  margin-left: 260px;
+}
+
+/* 登录和注册页面全屏显示 */
+.main-content.full-width {
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
